@@ -45,26 +45,11 @@ Applications used the bank's own authorization scheme, often their SSO system.
 
 # Workflow
 ## Overview
-// TODO
+// TODO: 
 
 ## Example workflow
-// TODO: convert to diagram
+// TODO: extract info from demo design diagram
 
-[1 Case Creation] 
-
--> [2 Internal system lookup] 
-
--> [3 DECISION] IF is found -> [4 VISA query] -> [5 CONTACT VENDOR] ->
-
--> [3 DECISION] ELSE not found -> [3a CONTACT CUSTOMER] -> GO TO [2] 
-
--> [6 DECISION] IF Vendor disputes AND transaction < $50 -> [7 FINAL DECISION] Issue Refund
-
--> [6 DECISION] ELSE IF Vendor disputes AND transaction > $50 -> [7 FINAL DECISION] Deny Refund
-
--> [6 DECISION] ELSE IF Vendor confirms -> [8 DECISION] IF Transaction >= $1000 -> [9 CONTACT POLICE] 
-
--> [8 DECISION] ELSE transaction < $1000 -> [7 FINAL DECISION] Issue Refund -> 
 
 ## Steps
 ### Workflow Setup - Administrator
